@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Bangers&family=Bebas+Neue&family=Carlito:wght@700&family=Castoro+Titling&family=Cormorant+Garamond&family=Fjalla+One&family=Gilda+Display&family=Gloock&family=Goblin+One&family=Holtwood+One+SC&family=Inter&family=Kanit&family=Konkhmer+Sleokchher&family=Koulen&family=Lilita+One&family=Merriweather:ital@0;1&family=Montserrat:wght@300&family=Oswald:wght@200;400&family=Permanent+Marker&family=Poppins&family=Rajdhani:wght@700&family=Righteous&family=Roboto+Condensed:ital@1&family=Roboto:wght@300&family=Ruda:wght@600&family=Rufina&family=Russo+One&family=Shrikhand&family=Slabo+27px&family=Squada+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5831b8626a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Resonsive JavaScript Project</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding">TheMultiVerse</a>
+
+            <ul>
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#games-section" class="nav-link">Games</a>
+                </li>
+                <li>
+                    <a href="#how-we-work" class="nav-link">How We Work</a>
+                </li>
+                <li>
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main-title">
+                <h1>A New Way to Slay</h1>
+                <form>
+                    <input type="text" id="search" placeholder="Search A Game...">
+                    <button onclick="search()">Search</button>
+                </form>
+            <div class="flexbox-container">
+                <div class="flexbox-item flexbox-item-1">
+                    <h1>PS5</h1>
+                    <img src="img/fantasy-landscape-distant-planet-with-mountain-big-blue-moon-generative-ai.jpg" alt="Image by Sketchepedia on Freepik">
+                </div>
+                <div class="flexbox-item flexbox-item-2">
+                    <h1>XBOX</h1>
+                    <img src="img/scenic-sunrise-high-mountains-alpes-generative-ai.jpg" alt="Image by Sketchepedia on Freepik">
+                </div>
+                <div class="flexbox-item flexbox-item-3">
+                    <h1>PC</h1>
+                    <img src="img/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers.jpg">
+                </div>
+            </div>
+        </div>
+        <div id="games-section">
+            <div id="games" class="games1">
+                <h1>Games</h1>
+                <img src="img/mw2-reveal-meta-share.jpg" alt="MW2"/>
+                <img src="img/valorant-offwhitelaunch-keyart.jpg" alt="Valorant"/>
+                <img src="img/csgo-2.jpg" alt="CS:GO"/>
+                <img src="img/splitgate-offer-1vr1d.png" alt="SplitGate"/>
+                <img src="img/EGS_EASPORTSFIFA23StandardEdition_EACanada_S1_2560x1440-aaf9c5273c27a485f2cce8cb7e804f5c.jpg" alt="Fifa23"/>
+                <img src="img/FM22.jpg" alt="Forza Motorsport"/>
+            </div>
+            <div id="how-we-work" class="work-section">
+                <h1>
+                    How We work
+                </h1>
+                <p>
+                    Play competitivly through the gaming universe, Connect with friends, and get rewarded! <br>View your favorite teams and see where they are on the global leaderboards. Match up with rivals from previous games and compete for the final trophy! Every Month we host a game Battles type event where teams can compete for a cash prize of up <em>$100,000 CAD</em>   
+                </p>
+            </div>
+        </div>
+        <div id="player-section" class="player">
+            <p>Game Universe</p>
+            <h1>Player of the Week !</h1>
+            <h4>TacticalGamer</h4>
+            <h6><Span>Member Since</Span> March 30th, 2015</h6>
+            <ul>
+                <li>
+                    <a href="#" class="link">Rank:</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Weekly Wins:</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Rewards Earned:</a>
+                </li>
+            </ul>
+            <div class="rank-stats">
+                <ul>
+                    <li>
+                        <a href="#" class="ranks">110,249th</a>
+                    </li>
+                    <li>
+                        <a href="#" class="ranks">120</a>
+                    </li>
+                    <li>
+                        <a href="#" class="ranks">103 Credits</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="player-heading">
+            <h1>What is player of the week</h1>
+            <p>In the realm of competitive gaming, the Player of the Week stands as a beacon of exceptional skill and unrivaled performance. This prestigious title is awarded to an individual who has exhibited unparalleled prowess, strategic brilliance, and an unwavering dedication to their craft. Every week, gamers from diverse arenas, be it the fast-paced world of first-person shooters or the intricate realms of multiplayer online battle arenas, compete fiercely for this coveted accolade! </p>
+        </div>
+        <div id="reviews" class="review">
+            <h1>Our Reviews</h1>
+            <div class="box">
+                <h1>Testimonials</h1>
+                <h4>MysteriouSpiderMonkey:</h4>
+                <h4>TenderSmokeyBacon2359: </h4>
+                <div class="line"></div>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <div class="star-ratings">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Minus <br>recusandae facilis deserunt ad odit <br>esse accusantium pariatur officiis. <br>Tempora enim tenetur iusto deserunt</p> 
+                <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. Minus <br>recusandae facilis deserunt ad odit <br>esse accusantium pariatur officiis. <br>Tempora enim tenetur iusto deserunt</p> 
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-section">
+                <h4>
+                    Copyright &copy; TheMultiVerse, 2023. 
+                </h4>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/>
+                <img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/>
+                <ul>
+                    <li>
+                        <a href="#" class="footerlink">Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footerlink">Matches</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footerlink">Business</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footerlink">Online Store</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

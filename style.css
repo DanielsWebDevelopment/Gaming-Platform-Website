@@ -1,0 +1,1051 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/movie-poster-star-trek-generation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/* Hero Section */
+header{
+    background-color: maroon;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    color: white;
+}
+
+.navbar{
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.navbar ul li{
+    display: inline-flex;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.navbar ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 5px;
+    margin: 0 5px;
+    transition: 0.2s;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.nav-branding{
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+/* End Hero Section */
+
+/* Main Section */
+input {
+    margin-top: 350px;
+    margin-left: 40px;
+    width: 350px;
+    height: 34px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+button {
+    height: 34px;
+    width: 85px;
+    border-radius: 8px;
+    position: relative;
+    right: 1px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main-title h1 {
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.flexbox-container{
+    display: flex;
+    margin-top: 180px;
+    gap: 2px;
+    margin: 170px 15px;
+}
+
+.flexbox-item{
+    min-width: 268px;
+    background-color: white;
+    box-shadow: 10px 2px 40px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.flexbox-item-1{
+    min-height: 230px;
+}
+
+.flexbox-item-1 h1 {
+    position: absolute;
+    bottom: 230px;
+    left: 85px;
+    font-size: 50px;
+}
+
+.flexbox-item-2{
+    min-height: 230px;
+}
+
+.flexbox-item-2 h1{
+    position: absolute;
+    bottom: 230px;
+    left: 360px;
+    font-size: 50px;
+}
+
+.flexbox-item-2 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flexbox-item-3{
+    min-height: 230px;
+}
+
+.flexbox-item-3 h1 {
+    position: absolute;
+    bottom: 230px;
+    left: 670px;
+    font-size: 50px;
+}
+
+.flexbox-item-3 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.flexbox-item-1 img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/* End Main Section */
+/* Games Section */
+#games{
+    text-align: center;
+    transition: opacity 0.5s;
+}
+
+.games1 {
+    opacity: 0;
+}
+
+#games-section h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 85px;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: .1rem;
+}
+
+#games-section img{
+    height: 220px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    box-shadow: 0 5px 10px 0 rgb(107, 107, 107);
+    transition: transform 300ms, box-shadow 300ms;
+    cursor: pointer;
+}
+
+#games-section img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px 0 rgb(131, 131, 131);
+}
+/* End of Games Section */
+/* How we work section */
+#how-we-work{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    transition: opacity 0.5s;
+}
+
+.work-section {
+    opacity: 0;
+}
+
+#how-we-work p{
+    color: white;
+    margin: 40px 60px;
+    line-height: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+/* End how we work section */
+/* player Section */
+#player-section p {
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 40px;
+    left: 55px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .1rem;
+}
+
+#player-section h1 {
+    color: #fefefe;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 55px;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: .1rem;
+}
+
+#player-section h4{
+    color: #fefefe;
+    position: relative;
+    margin-left: 55px;
+    margin-top: 10px;
+    font-size: 34px;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: .1rem;
+}
+
+#player-section h6 {
+    color: #fefefe;
+    margin: 30px 60px;
+    font-size: 13px;
+    position: relative;
+    bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#player-section h6 span {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+#player-section {
+    margin: 220px 0px;
+    background-color: #383838;
+    width: 100%;
+    transition: opacity 0.5s;
+}
+
+.player {
+    opacity: 0;
+}
+#player-section ul {
+    text-align: right;
+}
+
+#player-section li {
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    bottom: 81px;
+    right: 30px;
+}
+#player-section a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fefefe;
+    font-family: 'Poppins', sans-serif;
+}
+.rank-stats a {
+    margin: 25px;
+    font-size: 14px;
+}
+
+.rank-stats li {
+    position: relative;
+    bottom: 120px;
+}
+
+.next-event h3 {
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+}
+
+.player-heading h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.player-heading p {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 140px;
+    margin: 40px 60px;
+    line-height: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+/* End Player Section */
+/* reviews Section */
+#reviews h1 {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 80px;
+    position: relative;
+    bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.box {
+    width: 700px;
+    height: 400px;
+    background: linear-gradient rgba(0,0,0,0.5), rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+    top: 50px;
+}
+
+.box h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    margin: 70px;
+    border-radius: 10px;
+}
+
+.line {
+    height: 300px;
+    width: 660px;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.fa-star {
+    color: gold;
+    position: relative;
+    bottom: 190px;
+    left: 80px;
+    margin: 2px;
+    padding: 3px;
+}
+
+.box p {
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    line-height: 1rem;
+    position: relative;
+    bottom: 240px;
+    left: 53px;
+    display: inline-block;
+    padding: 40px 40px;
+}
+
+.star-ratings {
+    margin-left: 375px;
+    position: relative;
+    bottom: 23px;
+}
+/* End Reviews Section */
+/* footer Section */
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(32, 32, 32);
+    height: 200px;
+    width: 100%;
+}
+
+.footer-section h4 {
+    color: white;
+    font-size: 13px;
+    position: relative;
+    top: 30px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .1rem;
+}
+
+.footer-section img {
+    margin-top: 50px;
+    height: 37px;
+    width: 37px;
+    position: relative;
+    left: 230px;
+    cursor: pointer;
+    transition: transform 0.7s ease-in-out;
+}
+
+.footer-section img:hover{
+    position: relative;
+    bottom: 3px;
+}
+
+.footer-section ul{
+    display: inline-flex;
+}
+
+.footer-section ul li {
+    padding: 20px;
+    position: relative;
+    top: 60px;
+    right: 80px;
+}
+
+.footer-section a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.footer-section a:hover{
+    color: maroon;
+}
+/* End footer Section */
+/* Mobile Media Queries */
+@media only screen and (max-width: 481px){
+    .navbar{
+        min-height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2px;
+    }
+    
+    .navbar ul li{
+        display: none;
+    }
+    
+    .nav-branding{
+        font-size: 20px;
+        margin-left: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    input {
+        margin-top: 350px;
+        width: 250px;
+        height: 30px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+    
+    button {
+        height: 30px;
+        width: 70px;
+        border-radius: 8px;
+        position: relative;
+        right: 1px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .flexbox-container{
+        display: block;
+        margin-top: 180px;
+        gap: 2px;
+        margin: 170px 15px;
+    }
+
+    .flexbox-item-1 h1 {
+        position: absolute;
+        bottom: 230px;
+        left: 145px;
+        font-size: 60px;
+    }
+
+    .flexbox-item-1 img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .flexbox-item-2 h1{
+        position: absolute;
+        top: 650px;
+        left: 130px;
+        font-size: 60px;
+    }
+    
+    .flexbox-item-2 img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .flexbox-item-3 h1 {
+        position: absolute;
+        top: 920px;
+        left: 160px;
+        font-size: 60px;
+    }
+    
+    .flexbox-item-3 img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #games-section h1 {
+        color: white;
+        font-size: 45px;
+        margin-top: 85px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: .1rem;
+    }
+
+    #how-we-work{
+        text-align: center;
+        position: relative;
+        top: 120px;
+    }
+
+    #how-we-work h1 {
+        font-size: 45px;
+    }
+    
+    #how-we-work p{
+        color: white;
+        margin: 40px 60px;
+        line-height: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+
+    #player-section ul {
+        text-align: right;
+    }
+    
+    #player-section li {
+        display: inline-block;
+        margin: 10px;
+        position: relative;
+        bottom: 10px;
+        right: 30px;
+    }
+    #player-section a {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fefefe;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #player-section p {
+        color: #fefefe;
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        top: 40px;
+        left: 10px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: .1rem;
+    }
+    
+    #player-section h1 {
+        color: #fefefe;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 10px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: .1rem;
+    }
+    
+    #player-section h4{
+        color: #fefefe;
+        position: relative;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 25px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: .1rem;
+    }
+
+    #player-section h6 {
+        color: #fefefe;
+        margin: 30px 15px;
+        font-size: 13px;
+        position: relative;
+        bottom: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .player-heading h1 {
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 28px;
+    }
+
+    .player-heading p {
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 140px;
+        margin: 40px 60px;
+        line-height: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    #reviews h1 {
+        color: white;
+        font-family: 'Russo One', sans-serif;
+        margin-left: 30px;
+        position: relative;
+        bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .box {
+        width: 400px;
+        height: 600px;
+        background: linear-gradient rgba(0,0,0,0.5), rgba(0,0,0,0.5);
+        box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.2);
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .line {
+        height: 495px;
+        width: 380px;
+        border: 1px solid maroon;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .box h1 {
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        right: 10px;
+        top: 40px;
+    }
+
+    .box h4 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        position: relative;
+        top: 100px;
+        left: 10px;
+        margin: 70px 10px;
+        border-radius: 10px;
+    }
+
+    .fa-star {
+        color: gold;
+        position: relative;
+        bottom: 380px;
+        left: 20px;
+        margin: 2px;
+        padding: 3px;
+    }
+
+    .star-ratings {
+        margin-left: 185px;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .box p {
+        padding: 10px;
+        border-radius: 7px;
+        color: white;
+        font-size: 10px;
+        line-height: 1rem;
+        position: relative;
+        display: inline-block;
+        bottom: 400px;
+        left: 10px;
+    }
+
+    .rank-stats a {
+        margin: 25px;
+        font-size: 12px;
+    }
+    
+    .rank-stats li {
+        position: relative;
+        bottom: 120px;
+        left: 0;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 100px;
+        background-color: rgb(32, 32, 32);
+        height: 250px;
+        width: 100%;
+    }
+
+    .footer-section img {
+        margin-top: 50px;
+        height: 37px;
+        width: 37px;
+        position: relative;
+        left: 0px;
+        cursor: pointer;
+        transition: transform 0.7s ease-in-out;
+    }
+    
+    .footer-section img:hover{
+        position: relative;
+        bottom: 3px;
+    }
+
+    .footer-section ul{
+        display: inline-flex;
+    }
+    
+    .footer-section ul li {
+        padding: 15px;
+        position: relative;
+        top: 60px;
+        right: 0;
+    }
+    
+    .footer-section a {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.7s ease;
+    }
+    
+    .footer-section a:hover{
+        color: maroon;
+    }
+
+    .footer-section h4 {
+        color: white;
+        font-size: 12px;
+        position: relative;
+        top: 30px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: .1rem;
+    }
+}
+/* End Mobile Media Queries */
+/* Tablet Media Queries */
+@media only screen and (min-width: 562px) and (max-width: 768px){
+    .navbar ul li a {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 50px;
+        padding: 10px 5px;
+        margin: 0 5px;
+        transition: 0.2s;
+    }
+
+    input {
+        margin-top: 350px;
+        margin-left: 60px;
+        width: 350px;
+        height: 34px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 160px;
+        margin-top: 15px;
+    }
+}
+/* End Tablet Media Queries */
+
+/* Media Queries/ Small Devices */
+@media only screen and (min-width: 982px){
+    .main-title h1 {
+        color: white;
+        text-align: center;
+        margin-top: 250px;
+        margin-left: 40px;
+        font-size: 55px;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    input {
+        margin-top: 20px;
+        position: relative;
+        left: 260px;
+        width: 340px;
+        height: 34px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        text-align: center;
+    }
+
+    button {
+        height: 34px;
+        width: 95px;
+        border-radius: 8px;
+        position: relative;
+        left: 260px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .flexbox-item-1 h1 {
+        position: absolute;
+        bottom: 160px;
+        left: 125px;
+        font-size: 80px;
+    }
+
+    .flexbox-item-2 h1{
+        position: absolute;
+        bottom: 160px;
+        left: 600px;
+        font-size: 80px;
+    }
+
+    .flexbox-item-3 h1 {
+        position: absolute;
+        bottom: 160px;
+        left: 1070px;
+        font-size: 80px;
+    }
+
+    #games-section h1 {
+        color: white;
+        font-size: 55px;
+        margin-top: 85px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: .1rem;
+    }
+
+    .player-heading h1 {
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 55px;
+    }
+
+    #reviews h1 {
+        color: white;
+        font-family: 'Russo One', sans-serif;
+        font-size: 35px;
+        margin-left: 320px;
+        position: relative;
+        bottom: 20px;
+        letter-spacing: 1px;
+    }
+}
+/* End Media Queries/ Small devices */
+
+/* Media Queries/ Large Devices */
+@media only screen and (min-width: 1200px){
+    .main-title h1 {
+        color: white;
+        text-align: center;
+        margin-top: 250px;
+        margin-left: 40px;
+        font-size: 75px;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    input {
+        margin-top: 20px;
+        position: relative;
+        left: 490px;
+        width: 440px;
+        height: 38px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        text-align: center;
+    }
+
+    button {
+        height: 38px;
+        width: 105px;
+        border-radius: 8px;
+        position: relative;
+        left: 490px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .flexbox-item-1 h1 {
+        position: absolute;
+        bottom: 100px;
+        left: 170px;
+        font-size: 100px;
+    }
+
+    .flexbox-item-2 h1{
+        position: absolute;
+        bottom: 100px;
+        left: 785px;
+        font-size: 100px;
+    }
+
+    .flexbox-item-3 h1 {
+        position: absolute;
+        bottom: 100px;
+        left: 1470px;
+        font-size: 100px;
+    }
+
+    #games-section h1 {
+        color: white;
+        font-size: 85px;
+        margin-top: 85px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: .1rem;
+    }
+
+    #how-we-work p{
+        color: white;
+        margin: 40px 60px;
+        line-height: 3rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+
+    .flexbox-item{
+        width: 838px;
+        background-color: white;
+        box-shadow: 10px 2px 40px black;
+        border: 1px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    #player-section h1 {
+        color: #fefefe;
+        font-size: 35px;
+        margin-top: 40px;
+        margin-left: 50px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: .1rem;
+    }
+    
+    #player-section h4{
+        color: #fefefe;
+        position: relative;
+        margin-left: 150px;
+        margin-top: 10px;
+        font-size: 35px;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: .1rem;
+    }
+
+    #player-section h6 {
+        color: #fefefe;
+        margin: 30px 15px;
+        margin-left: 160px;
+        font-size: 16px;
+        position: relative;
+        bottom: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .rank-stats a {
+        margin: 25px;
+        font-size: 14px;
+    }
+    
+    .rank-stats li {
+        position: relative;
+        bottom: 150px;
+        right: 200px;
+    }
+
+    .player-heading p {
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 140px;
+        margin: 60px 180px;
+        line-height: 3rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+
+   
+}
+/* End Media Queries/ Large Devices */
