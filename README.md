@@ -11,10 +11,10 @@ to be able to connect with one another through the MultiVerse Gaming platform.
 
 ## Some of the Feautures include, but not limitied too, 
 
-allowing users to choose a game title based on a specific search result/input.
+* allowing users to choose a game title based on a specific search result/input.
 
 ## Future Updates included, but not limited too, 
-allowing users to compete against eachother through a competitive roster/ladder to climb the ranks and become the top team of the year. 
+* allowing users to compete against eachother through a competitive roster/ladder to climb the ranks and become the top team of the year. 
 
 # Below are the Screenshots of the Website Structure.
 ![newnew1](https://github.com/DanielsWebDevelopment/DanielsWebDevelopment/assets/129445203/984541f0-da51-4630-af90-0e77c236a8d0)
