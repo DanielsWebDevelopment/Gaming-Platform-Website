@@ -2,12 +2,12 @@
 
 ## The MultiVerse Gaming-Platform-Project
 
-## This website was built using HMTL, CSS and JavaScript as a personal project
-
 In this Projects, A user can pick and choose the game they would like to play, 
 Compete for a top trophy, or even compete in Future Touraments. 
 The goal for this website, is bring the gaming community closer together, Allowing users 
 to be able to connect with one another through the MultiVerse Gaming platform.
+
+#### This website was built using HMTL, CSS and JavaScript as a personal project
 
 ## Some of the Feautures include, but not limitied too, 
 
